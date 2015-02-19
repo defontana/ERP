@@ -8,9 +8,10 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ERP.Services.Support</RootNamespace>
-    <AssemblyName>Spartan.Services.Support</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AssemblyName>ERP.Services.Support</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

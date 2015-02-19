@@ -3,17 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Presentation", "ERP.MVCPresentation\ERP.Presentation.csproj", "{36287B2D-CCB2-4184-A815-41300CD78B34}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Utilities", "ERP.Utilities\ERP.Utilities.csproj", "{5A52FE7D-E3E1-4A8E-BFB1-9C047F062B95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Services", "ERP.Services\ERP.Services.csproj", "{8775145D-102E-4A59-B833-B7A7F8CA7E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Services.Interface", "ERP.Services\ERP.Services.Interface.csproj", "{8775145D-102E-4A59-B833-B7A7F8CA7E25}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DTO", "ERP.DTO\ERP.DTO.csproj", "{FEB3FF38-4F0C-4D5E-91CB-0F8A6BC86EE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Services.Support", "ERP.Services.Support\ERP.Services.Support.csproj", "{2DC23AE8-9B94-47EF-AA20-AF7ED4ED3979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DAO", "ERP.DAO\ERP.DAO.csproj", "{F810C133-6EC2-470D-B580-E097EC9372ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.DAO.Interface", "ERP.DAO\ERP.DAO.Interface.csproj", "{F810C133-6EC2-470D-B580-E097EC9372ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ERP.Services", "ERP.Services", "{4D4D4541-FBCA-4105-AD54-EED99C06F6EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ERP.BussinessDelegate", "ERP.BussinessDelegate", "{3CBE9B4B-959E-4325-B153-AE05E5854AD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ERP.DAO", "ERP.DAO", "{4AF08707-8D71-4394-ADB7-5D8A4EAA511C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.BussinessDelegate.Interface", "ERP.BussinessDelegate.Interface\ERP.BussinessDelegate.Interface.csproj", "{3AAAA458-4682-430F-9D21-CEA29F7356D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Presentation", "ERP.Presentation\ERP.Presentation.csproj", "{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ERP.UnitTest", "ERP.UnitTest", "{51740FA8-B084-47A3-9839-7032AB7C7E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Configuration", "ERP.Configuration\ERP.Configuration.csproj", "{C3A127C9-6E8D-48CD-AF20-A9D93D32556F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.UnitTest", "ERP.UnitTest\ERP.UnitTest.csproj", "{B70DAE80-45B6-45C5-BE5A-38B715D95C92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.WebServices.Presentation", "ERP.WebServices.Presentation\ERP.WebServices.Presentation.csproj", "{2C94DD99-D594-4BFB-9340-899BBFAB8629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +37,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36287B2D-CCB2-4184-A815-41300CD78B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36287B2D-CCB2-4184-A815-41300CD78B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36287B2D-CCB2-4184-A815-41300CD78B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36287B2D-CCB2-4184-A815-41300CD78B34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A52FE7D-E3E1-4A8E-BFB1-9C047F062B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5A52FE7D-E3E1-4A8E-BFB1-9C047F062B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A52FE7D-E3E1-4A8E-BFB1-9C047F062B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,8 +57,35 @@ Global
 		{F810C133-6EC2-470D-B580-E097EC9372ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F810C133-6EC2-470D-B580-E097EC9372ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F810C133-6EC2-470D-B580-E097EC9372ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAAA458-4682-430F-9D21-CEA29F7356D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAAA458-4682-430F-9D21-CEA29F7356D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAAA458-4682-430F-9D21-CEA29F7356D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAAA458-4682-430F-9D21-CEA29F7356D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A127C9-6E8D-48CD-AF20-A9D93D32556F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A127C9-6E8D-48CD-AF20-A9D93D32556F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A127C9-6E8D-48CD-AF20-A9D93D32556F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A127C9-6E8D-48CD-AF20-A9D93D32556F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70DAE80-45B6-45C5-BE5A-38B715D95C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70DAE80-45B6-45C5-BE5A-38B715D95C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70DAE80-45B6-45C5-BE5A-38B715D95C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70DAE80-45B6-45C5-BE5A-38B715D95C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8775145D-102E-4A59-B833-B7A7F8CA7E25} = {4D4D4541-FBCA-4105-AD54-EED99C06F6EF}
+		{2DC23AE8-9B94-47EF-AA20-AF7ED4ED3979} = {4D4D4541-FBCA-4105-AD54-EED99C06F6EF}
+		{F810C133-6EC2-470D-B580-E097EC9372ED} = {4AF08707-8D71-4394-ADB7-5D8A4EAA511C}
+		{3AAAA458-4682-430F-9D21-CEA29F7356D9} = {3CBE9B4B-959E-4325-B153-AE05E5854AD1}
+		{B70DAE80-45B6-45C5-BE5A-38B715D95C92} = {51740FA8-B084-47A3-9839-7032AB7C7E08}
 	EndGlobalSection
 EndGlobal
