@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ERP.DAO.Interface
 {
-    public class IClientDAO
+    public interface IClientDAO
     {
+        string login(string texto);
     }
 }

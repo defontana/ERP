@@ -9,11 +9,15 @@ using System.Web.Routing;
 using log4net;
 using log4net.Config;
 
+
 namespace ERP.Presentation
 {
     public class MvcApplication : System.Web.HttpApplication
     {
         protected static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+       
+
 
         protected void Application_Start()
         {
@@ -32,11 +36,11 @@ namespace ERP.Presentation
             //Registramos errores de Aplicaciones en el Log4net.
             HttpContext context = HttpContext.Current;
             Exception ex = Server.GetLastError();
-            ERP.Utilities.Log.ErrorCatch.Save(ex);
+            //ERP.Utilities.Log.ErrorCatch.Save(ex);
 
 
 
-            //Log.Error(ex);
+            Log.Error(ex);
 
 
 

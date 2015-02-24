@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ERP.Services
 {
-    public class IClientServices
+    public interface IClientServices
     {
+        string loginCliente(string entrada);
     }
 }
