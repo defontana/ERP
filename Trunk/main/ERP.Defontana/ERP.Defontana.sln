@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.UnitTest", "ERP.UnitTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.WebServices.Presentation", "ERP.WebServices.Presentation\ERP.WebServices.Presentation.csproj", "{2C94DD99-D594-4BFB-9340-899BBFAB8629}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.UnitTest.Nunit", "ERP.UnitTest.Nunit\ERP.UnitTest.Nunit.csproj", "{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C94DD99-D594-4BFB-9340-899BBFAB8629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,5 +93,6 @@ Global
 		{F810C133-6EC2-470D-B580-E097EC9372ED} = {4AF08707-8D71-4394-ADB7-5D8A4EAA511C}
 		{3AAAA458-4682-430F-9D21-CEA29F7356D9} = {3CBE9B4B-959E-4325-B153-AE05E5854AD1}
 		{B70DAE80-45B6-45C5-BE5A-38B715D95C92} = {51740FA8-B084-47A3-9839-7032AB7C7E08}
+		{DDAF17D4-FACD-4C83-9D23-82FF2E42FBE3} = {51740FA8-B084-47A3-9839-7032AB7C7E08}
 	EndGlobalSection
 EndGlobal
