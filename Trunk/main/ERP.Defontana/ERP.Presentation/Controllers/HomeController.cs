@@ -1,16 +1,26 @@
-﻿using System;
+﻿using ERP.DTO;
+using ERP.Presentation.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace ERP.Presentation.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
-            return View();
+            
+            SimpleTO usuario = new SimpleTO();
+
+            usuario.name = _ContextFactory.loginUser("Capa Presentacion");
+
+            logger.DebugFormat("resultado Inyeccion : {0}",usuario.name);
+            
+            return View(usuario);
         }
 
         public ActionResult About()

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<objects xmlns="http://www.springframework.net">
+	
+	<description>
+		Definiciones de objetos de vista, para definir inyección de servicios.
+	</description>
+
+  <!--Presenters-->
+  <object name="Presenter" type="ERP.Presentation.Helpers.ContextService, ERP.Presentation" singleton="false" />
+  <!--object name="EmployeePresenter" type="WinClient.Presenters.Employee, WinClient" singleton="false" /-->
+
+  <!--Business Logic Layers-->
+  <object name="ServicesERP" type="ERP.Services.Support.ClientServices, ERP.Services.Support" singleton="false" />
+  <!--object name="EmployeeBLL" type="BLL.Employee.EmployeeBLL, BLL" singleton="false" /-->
+
+  <!--Data Access Layers-->
+  <object name="ClientDAO" type="ERP.DAO.Support.ClientDAO, ERP.DAO.Interface" singleton="false" />
+  <!--object name="EmployeeDAL" type="DAL.Employee.EmployeeDAL, DAL" singleton="false" /-->
+</objects>
