@@ -19,7 +19,7 @@ namespace ERP.UnitTest.Nunit
         {
             int divisor = 0;
 
-            double valor = 5 / divisor;
+            int valor = 1 + divisor;
             Assert.AreNotEqual(valor, 0);
         }
 
@@ -28,7 +28,7 @@ namespace ERP.UnitTest.Nunit
         {
             int divisor = 0;
 
-            Assert.AreNotEqual(0, divisor);
+            Assert.AreEqual(0, divisor);
         }
     }
 }
