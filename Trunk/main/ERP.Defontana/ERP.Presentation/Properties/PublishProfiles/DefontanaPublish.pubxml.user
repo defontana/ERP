@@ -7,7 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>c:\Deploy\ERP</_PublishTargetUrl>
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOuyLGJ0a+0Wv0GjykemQNQAAAAACAAAAAAAQZgAAAAEAACAAAADMWVi6o25arGuakQaF4V2vNnpgsHnekMRdk2DHvqWyIwAAAAAOgAAAAAIAACAAAABzILqTtGSjWYjhFWGe168QyKsLApRGgT/BDc5U4KnIoCAAAABiSoPNre0XmbywQjvRerJ3c7vPAYWW7Ldi5rcs3kC71UAAAAAFMTv/xMPAQHH9/7edMoIvX79Ev08Fk93tS+Dd1cCJxOJgyF7H351aE8qjxfjHn/Z4S34QZsYcWQbu6T5qgHFy</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOuyLGJ0a+0Wv0GjykemQNQAAAAACAAAAAAAQZgAAAAEAACAAAAB+dGBREML0tLbSZMOofd2tUxcVZWM3tYyael2upEJEQAAAAAAOgAAAAAIAACAAAAANCEJa+Jcmwk2/lmS2ZvVxQ7fiQogWgN+/yonSkLuBUhAAAADB3ZQ+9xSoqsHyzahcYQ4+QAAAALlT8TpHdLerxtgdE1e141nzh9/R9B2fgaGs7KFOkSsOMwzslvbY9ZqHOBSCeev+adzRj1SEvzJGvqiyzyOtsKs=</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
