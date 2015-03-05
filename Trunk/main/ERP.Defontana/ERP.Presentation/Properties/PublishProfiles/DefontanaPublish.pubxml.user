@@ -7,6 +7,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>c:\Deploy\ERP</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOuyLGJ0a+0Wv0GjykemQNQAAAAACAAAAAAAQZgAAAAEAACAAAADMWVi6o25arGuakQaF4V2vNnpgsHnekMRdk2DHvqWyIwAAAAAOgAAAAAIAACAAAABzILqTtGSjWYjhFWGe168QyKsLApRGgT/BDc5U4KnIoCAAAABiSoPNre0XmbywQjvRerJ3c7vPAYWW7Ldi5rcs3kC71UAAAAAFMTv/xMPAQHH9/7edMoIvX79Ev08Fk93tS+Dd1cCJxOJgyF7H351aE8qjxfjHn/Z4S34QZsYcWQbu6T5qgHFy</EncryptedPassword>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
